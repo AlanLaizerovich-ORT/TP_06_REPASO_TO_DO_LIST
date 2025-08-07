@@ -69,7 +69,7 @@ public IActionResult Registro(string Nombre, string Apellido, string password, s
         UltimoLogin = DateTime.Now
     };
     bd.AgregarUsuario(nuevoUsuario);
-    return RedirectToAction("Login");
+  return RedirectToAction("Login");
 
 }
 }
