@@ -37,7 +37,9 @@ public IActionResult Login(string UserName, string password)
     if (usuario != null)
     {
         HttpContext.Session.SetString("ID", usuario.ID.ToString());
-        return RedirectToAction("Principal");
+   HttpContext.Session.SetString("UserName", usuario.UserName.ToString());
+         usuario.UltimoLogin = DateTime.Now;
+        return View("Principal");
     }
 
     ViewBag.Error = "UserName o contraseña incorrectos.";
@@ -57,5 +59,17 @@ public IActionResult Registro(string Nombre, string Apellido, string password, s
         ViewBag.Error = "Nombre, apellido, Username y contraseña son obligatorios.";
         return View();
     }
+    Usuario nuevoUsuario = new Usuario
+    {
+        Nombre = Nombre,
+        Apellido = Apellido,
+        Password = password,
+        Foto = Foto,
+        UserName = UserName,
+        UltimoLogin = DateTime.Now
+    };
+    bd.AgregarUsuario(nuevoUsuario);
+    return RedirectToAction("Login");
 
+}
 }
