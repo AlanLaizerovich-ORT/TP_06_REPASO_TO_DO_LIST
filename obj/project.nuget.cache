@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EmA0MYWb75JmLcywzRXdyxI6akqKGtSA08o98/13zl7t6cPwbBpxZtQk1rI/awwaMV0StnhvOPgA9AYGWNYDyg==",
+  "dgSpecHash": "VJKVp1Q8EllTqYpUhq63QvnHijppihPlHsZ+NH6MUJjyuUUoIHLPTf2YTVhi8uyG238lbrpLY7AofDx8d2SEeg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\49518922\\Downloads\\Nueva carpeta\\TP_06_REPASO_TO_DO_LIST\\Tp06.csproj",
+  "projectFilePath": "C:\\Users\\49518922\\Downloads\\tprepaso\\TP_06_REPASO_TO_DO_LIST\\Tp06.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\49518922\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\49518922\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

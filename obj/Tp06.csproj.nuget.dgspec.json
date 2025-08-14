@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\49518922\\Downloads\\Nueva carpeta\\TP_06_REPASO_TO_DO_LIST\\Tp06.csproj": {}
+    "C:\\Users\\49518922\\Downloads\\tprepaso\\TP_06_REPASO_TO_DO_LIST\\Tp06.csproj": {}
   },
   "projects": {
-    "C:\\Users\\49518922\\Downloads\\Nueva carpeta\\TP_06_REPASO_TO_DO_LIST\\Tp06.csproj": {
+    "C:\\Users\\49518922\\Downloads\\tprepaso\\TP_06_REPASO_TO_DO_LIST\\Tp06.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\49518922\\Downloads\\Nueva carpeta\\TP_06_REPASO_TO_DO_LIST\\Tp06.csproj",
+        "projectUniqueName": "C:\\Users\\49518922\\Downloads\\tprepaso\\TP_06_REPASO_TO_DO_LIST\\Tp06.csproj",
         "projectName": "Tp06",
-        "projectPath": "C:\\Users\\49518922\\Downloads\\Nueva carpeta\\TP_06_REPASO_TO_DO_LIST\\Tp06.csproj",
+        "projectPath": "C:\\Users\\49518922\\Downloads\\tprepaso\\TP_06_REPASO_TO_DO_LIST\\Tp06.csproj",
         "packagesPath": "C:\\Users\\49518922\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\49518922\\Downloads\\Nueva carpeta\\TP_06_REPASO_TO_DO_LIST\\obj\\",
+        "outputPath": "C:\\Users\\49518922\\Downloads\\tprepaso\\TP_06_REPASO_TO_DO_LIST\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -54,9 +54,9 @@ public IActionResult Registro()
 [HttpPost]
 public IActionResult Registro(string Nombre, string Apellido, string password, string Foto, string UserName)
 {
-    if (string.IsNullOrEmpty(Nombre) || string.IsNullOrEmpty(Apellido) || string.IsNullOrEmpty(password) ||string.IsNullOrEmpty(UserName) )
+    if (string.IsNullOrEmpty(Nombre) || string.IsNullOrEmpty(Apellido) || string.IsNullOrEmpty(password) ||string.IsNullOrEmpty(UserName) || bd.ObtenerUsuarioPorUsername(UserName)!=null )
     {
-        ViewBag.Error = "Nombre, apellido, Username y contraseña son obligatorios.";
+        ViewBag.Error = "Nombre, apellido, Username y contraseña son obligatorios. o Username ya utilizado";
         return View();
     }
     Usuario nuevoUsuario = new Usuario
