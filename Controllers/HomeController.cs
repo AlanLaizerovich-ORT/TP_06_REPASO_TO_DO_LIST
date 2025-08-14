@@ -8,7 +8,7 @@ namespace Tp06.Controllers
     {
         private BD bd = new BD();
 
-        // Mostrar tareas activas del usuario
+    
         public IActionResult Index()
         {
             if (HttpContext.Session.GetString("ID") == null)
@@ -20,7 +20,7 @@ namespace Tp06.Controllers
             return View(todasTareas);
         }
 
-        // Marcar tarea como finalizada
+
         public IActionResult FinalizarTarea(int id)
         {
             if (HttpContext.Session.GetString("ID") == null)
@@ -30,14 +30,14 @@ namespace Tp06.Controllers
             return RedirectToAction("Index");
         }
 
-        // Crear tarea - GET
+
         [HttpGet]
         public IActionResult CrearTarea()
         {
             return View();
         }
 
-        // Crear tarea - POST
+
         [HttpPost]
         public IActionResult CrearTarea(string Titulo, string Descripcion, System.DateTime Fecha)
         {
@@ -57,7 +57,7 @@ namespace Tp06.Controllers
             return RedirectToAction("Index");
         }
 
-        // Editar tarea - GET
+
         [HttpGet]
         public IActionResult EditarTarea(int id)
         {
@@ -79,7 +79,6 @@ namespace Tp06.Controllers
             return View(tarea);
         }
 
-        // Editar tarea - POST
         [HttpPost]
         public IActionResult EditarTarea(int ID, string Titulo, string Descripcion, System.DateTime Fecha, bool Finalizado)
         {
@@ -96,5 +95,16 @@ namespace Tp06.Controllers
             bd.EditarTarea(tarea);
             return RedirectToAction("Index");
         }
+
+
+        public IActionResult EliminarTarea(int id)
+{
+    if (HttpContext.Session.GetString("ID") == null)
+        return RedirectToAction("Login", "Account");
+
+    bd.EliminarTarea(id);
+    return RedirectToAction("Index");
+}
     }
+    
 }

@@ -1,0 +1,36 @@
+@model Tp06.Models.Tarea
+
+@{
+    ViewData["Title"] = "Editar Tarea";
+}
+
+<h2>Editar Tarea</h2>
+
+<form asp-action="EditarTarea" method="post">
+
+    <input type="hidden" name="ID" value="@Model.ID" />
+
+    <div>
+        <label for="Titulo">Título</label>
+        <input type="text" id="Titulo" name="Titulo" value="@Model.Titulo" required />
+    </div>
+
+    <div>
+        <label for="Descripcion">Descripción</label>
+        <textarea id="Descripcion" name="Descripcion" required>@Model.Descripcion</textarea>
+    </div>
+
+    <div>
+        <label for="Fecha">Fecha límite</label>
+        <input type="date" id="Fecha" name="Fecha" value="@Model.Fecha.ToString("yyyy-MM-dd")" required />
+    </div>
+
+    <div>
+        <label for="Finalizado">¿Finalizado?</label>
+        <input type="checkbox" id="Finalizado" name="Finalizado" value="true" @(Model.Finalizado ? "checked" : "") />
+        <input type="hidden" name="Finalizado" value="false" />
+    </div>
+
+    <button type="submit">Guardar Cambios</button>
+    <a asp-action="Index">Cancelar</a>
+</form>

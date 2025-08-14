@@ -22,12 +22,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/49518922/Downloads/tprepaso/TP_06_REPASO_TO_DO_LIST/Views/Account/Principal.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQcmluY2lwYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/49518922/Downloads/tprepaso/TP_06_REPASO_TO_DO_LIST/Views/Account/Registro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Ryby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/49518922/Downloads/tprepaso/TP_06_REPASO_TO_DO_LIST/Views/Home/CrearTarea.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhclRhcmVhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/49518922/Downloads/tprepaso/TP_06_REPASO_TO_DO_LIST/Views/Home/EditarTarea.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0YXJUYXJlYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/49518922/Downloads/tprepaso/TP_06_REPASO_TO_DO_LIST/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/49518922/Downloads/tprepaso/TP_06_REPASO_TO_DO_LIST/Views/Shared/_Layout.cshtml]

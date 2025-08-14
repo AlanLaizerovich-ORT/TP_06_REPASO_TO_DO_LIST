@@ -39,7 +39,7 @@ public IActionResult Login(string UserName, string password)
         HttpContext.Session.SetString("ID", usuario.ID.ToString());
    HttpContext.Session.SetString("UserName", usuario.UserName.ToString());
          usuario.UltimoLogin = DateTime.Now;
-        return View("Principal");
+        return RedirectToAction("Index", "Home");
     }
 
     ViewBag.Error = "UserName o contraseña incorrectos.";

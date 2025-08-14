@@ -1,0 +1,32 @@
+@model List<Tp06.Models.Tarea>
+
+<h2>Mis Tareas</h2>
+
+<table border="1">
+    <tr>
+        <th>Título</th>
+        <th>Descripción</th>
+        <th>Fecha</th>
+        <th>Finalizada</th>
+        <th>Acciones</th>
+    </tr>
+@foreach (var tarea in Model)
+{
+    <tr>
+        <td>@tarea.Titulo</td>
+        <td>@tarea.Descripcion</td>
+        <td>@tarea.Fecha.ToShortDateString()</td>
+        <td>@(tarea.Finalizado ? "Sí" : "No")</td>
+        <td>
+        
+            <a href="@Url.Action("EditarTarea", "Home", new { id = tarea.ID })">Editar</a> |
+            <a href="@Url.Action("FinalizarTarea", "Home", new { id = tarea.ID })">Finalizar</a>
+            <a href="@Url.Action("EliminarTarea", "Home", new { id = tarea.ID })">Eliminar</a> |
+            
+        </td>
+    </tr>
+}
+</table>
+
+<a href="@Url.Action("CrearTarea", "Home")">Crear Nueva Tarea</a>
+<a href="@Url.Action("Login", "Account")">Cerrar sesion</a>

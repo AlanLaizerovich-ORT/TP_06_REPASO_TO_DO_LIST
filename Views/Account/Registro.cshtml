@@ -8,25 +8,27 @@
     <label>Username:</label>
     <input type="text" name="Username" required />
     <br />
+    
     <label>Password:</label>
     <input type="password" name="password" required />
     <br />
-        <label>Nombre:</label>
-    <input type="Text" name="Nombre" required />
+    
+    <label>Nombre:</label>
+    <input type="text" name="Nombre" required />
     <br />
-      <label>Apellido:</label>
-    <input type="Text" name="Apellido" required />
+    
+    <label>Apellido:</label>
+    <input type="text" name="Apellido" required />
     <br />
-      <label>Foto:</label>
-    <input type="image" name="Foto" required />
-    <br />
-  <form method="post" asp-action="Registro">
-    <br/>
+    
+    <label>Foto:</label>
+    <input type="file" name="Foto" required />
+    <br /><br />
+    
     <button type="submit">Registrarse</button>
 </form>
-</form>
 
-@if (ViewBag.Error != null)
-{
-    <p style="color:red">@ViewBag.Error</p>
-}
+
+<form method="get" asp-action="Login" asp-controller="Account">
+    <button type="submit" formnovalidate>Volver al Login</button>
+</form>
