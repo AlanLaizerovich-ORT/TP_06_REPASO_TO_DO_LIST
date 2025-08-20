@@ -20,15 +20,14 @@ namespace Tp06.Controllers
             return View(todasTareas);
         }
 
+public IActionResult FinalizarTarea(int id)
+{
+    if (HttpContext.Session.GetString("ID") == null)
+        return RedirectToAction("Login", "Account");
 
-        public IActionResult FinalizarTarea(int id)
-        {
-            if (HttpContext.Session.GetString("ID") == null)
-                return RedirectToAction("Login", "Account");
-
-            bd.MarcarTareaComoFinalizada(id);
-            return RedirectToAction("Index");
-        }
+    bd.MarcarTareaComoFinalizada(id); 
+    return RedirectToAction("Index");
+}
 
 
         [HttpGet]

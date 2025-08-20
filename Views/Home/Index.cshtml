@@ -16,14 +16,30 @@
         <td>@tarea.Titulo</td>
         <td>@tarea.Descripcion</td>
         <td>@tarea.Fecha.ToShortDateString()</td>
-        <td>@(tarea.Finalizado ? "Sí" : "No")</td>
-        <td>
-        
-            <a href="@Url.Action("EditarTarea", "Home", new { id = tarea.ID })">Editar</a> |
-            <a href="@Url.Action("FinalizarTarea", "Home", new { id = tarea.ID })">Finalizar</a>
-            <a href="@Url.Action("EliminarTarea", "Home", new { id = tarea.ID })">Eliminar</a> |
-            
-        </td>
+<td>
+    @if (tarea.Finalizado)
+    {
+        @:Sí
+    }
+    else
+    {
+        @:No
+    }
+</td>
+
+       <td>
+    <a href="@Url.Action("EditarTarea", "Home", new { id = tarea.ID })">Editar</a> |
+
+    @if(!tarea.Finalizado)
+    {
+        <text>
+            <a href="@Url.Action("FinalizarTarea", "Home", new { id = tarea.ID })">Finalizar</a> |
+        </text>
+    }
+
+    <a href="@Url.Action("EliminarTarea", "Home", new { id = tarea.ID })">Eliminar</a>
+</td>
+
     </tr>
 }
 </table>

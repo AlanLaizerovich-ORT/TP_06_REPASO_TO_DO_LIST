@@ -9,47 +9,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Tp06
 build_property.RootNamespace = Tp06
-build_property.ProjectDir = C:\Users\49518922\Downloads\tprepaso\TP_06_REPASO_TO_DO_LIST\
+build_property.ProjectDir = C:\Users\49518922\Downloads\ohio!\TP_06_REPASO_TO_DO_LIST\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\49518922\Downloads\tprepaso\TP_06_REPASO_TO_DO_LIST
+build_property.MSBuildProjectDirectory = C:\Users\49518922\Downloads\ohio!\TP_06_REPASO_TO_DO_LIST
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/49518922/Downloads/tprepaso/TP_06_REPASO_TO_DO_LIST/Views/Account/Login.cshtml]
+[C:/Users/49518922/Downloads/ohio\!/TP_06_REPASO_TO_DO_LIST/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/49518922/Downloads/tprepaso/TP_06_REPASO_TO_DO_LIST/Views/Account/Registro.cshtml]
+[C:/Users/49518922/Downloads/ohio\!/TP_06_REPASO_TO_DO_LIST/Views/Account/Registro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Ryby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/49518922/Downloads/tprepaso/TP_06_REPASO_TO_DO_LIST/Views/Home/CrearTarea.cshtml]
+[C:/Users/49518922/Downloads/ohio\!/TP_06_REPASO_TO_DO_LIST/Views/Home/CrearTarea.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhclRhcmVhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/49518922/Downloads/tprepaso/TP_06_REPASO_TO_DO_LIST/Views/Home/EditarTarea.cshtml]
+[C:/Users/49518922/Downloads/ohio\!/TP_06_REPASO_TO_DO_LIST/Views/Home/EditarTarea.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0YXJUYXJlYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/49518922/Downloads/tprepaso/TP_06_REPASO_TO_DO_LIST/Views/Home/Index.cshtml]
+[C:/Users/49518922/Downloads/ohio\!/TP_06_REPASO_TO_DO_LIST/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/49518922/Downloads/tprepaso/TP_06_REPASO_TO_DO_LIST/Views/Shared/_Layout.cshtml]
+[C:/Users/49518922/Downloads/ohio\!/TP_06_REPASO_TO_DO_LIST/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/49518922/Downloads/tprepaso/TP_06_REPASO_TO_DO_LIST/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/49518922/Downloads/ohio\!/TP_06_REPASO_TO_DO_LIST/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/49518922/Downloads/tprepaso/TP_06_REPASO_TO_DO_LIST/Views/_ViewImports.cshtml]
+[C:/Users/49518922/Downloads/ohio\!/TP_06_REPASO_TO_DO_LIST/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/49518922/Downloads/tprepaso/TP_06_REPASO_TO_DO_LIST/Views/_ViewStart.cshtml]
+[C:/Users/49518922/Downloads/ohio\!/TP_06_REPASO_TO_DO_LIST/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

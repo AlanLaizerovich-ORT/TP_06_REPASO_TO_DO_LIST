@@ -112,7 +112,7 @@ public List<Tarea> TareasPorUsuario(int idUsuario)
 {
     using (SqlConnection connection = new SqlConnection(_connectionString))
     {
-        string query = "SELECT * FROM Tareas WHERE IdU = @pIdU AND Finalizado = 0"; 
+        string query = "SELECT * FROM Tareas WHERE IdU = @pIdU"; 
         return connection.Query<Tarea>(query, new { pIdU = idUsuario }).ToList();
     }
 }
